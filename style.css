@@ -1,0 +1,113 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.5rem;
+    list-style-type: none;
+    margin: 1rem;
+    color: white;
+}
+
+.pic {
+    width: 2rem;
+    border-radius: 20px;
+}
+
+.content1 {
+    text-align: center;
+}
+
+.content2 {
+    text-align: center;
+    margin-top: 4.5%;
+    font-size: 6rem;
+    font-weight: 550;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content3 {
+    font-size: 0.9rem;
+    text-align: center;
+    margin: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.searchbar {
+    border-radius: 20px;
+    width: 35rem;
+    height: 3rem;
+    margin: 2rem;
+    border-color: whitesmoke;
+    background-color: rgba(47, 41, 41, 0.785);
+    cursor: text;
+    color: white;
+    position: relative;
+    padding-left: 30px;
+    padding-left: 60px;
+    background-image: url("https://www.citypng.com/public/uploads/preview/search-explore-white-icon-transparent-png-31634946340qymsafkpk6.png?v=2023070413"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/640px-Google_mic.svg.png"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Google_Lens_Icon.svg/800px-Google_Lens_Icon.svg.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 1rem center, 35rem center, right center;
+    background-size: 35px 35px, 25px 25px, 25px 25px;
+    border: 0.1px solid gray;
+}
+
+.btn {
+    width: 10rem;
+    height: 2.5rem;
+    margin: 0.1rem;
+    background-color: rgba(30, 27, 27, 0.929);
+    color: white;
+    border-radius: .5rem;
+}
+
+body {
+    background-color: rgba(1, 1, 1, 0.87);
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.foot {
+    background-color: black;
+    margin-top: 13.7rem;
+    list-style-type: none;
+}
+
+.foot1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    margin-top: 0.8%;
+    background-color: black;
+    list-style-type: none;
+    border-top: 0.001rem solid rgba(255, 255, 255, 0.415);
+}
+
+.foot2 {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1.8rem;
+    background-color: black;
+    list-style-type: none;
+    margin-top: -1.1rem;
+    margin-right: 1rem;
+}
+
+a {
+    color: #a7b6f9;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+li {
+    color: white;
+}
